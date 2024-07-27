@@ -1,36 +1,7 @@
-/* .nav{
-    display: flex;
-     
-    
-}
-
-
-.div1{
-    margin-left: auto;
-
-}
-
-a{
-    margin: 4px;
-}
-img{
-    border-radius: 50%;
-    
-    margin-left: 150px;
-    margin-top: 50px;
-}
-
-.div2{
-    display: flex;
-    justify-content: center;
-}
-.about{
-    margin-top: 90px;
-    margin-left: 50px;
-} */
 
 
 body{
+
 
     background-color: bisque !important;
 }
@@ -105,22 +76,15 @@ color: antiquewhite !important;
 
 
 .container{
-
-
     flex-direction: row !important;
     justify-content: space-between !important;
     align-items: center;
 
 }
-.col{
+.ele{
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     transition: all .2 ease-in-out;
 }
 .col:hover{transform: scale(1.1);}
-
-.row-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
